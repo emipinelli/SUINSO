@@ -1,0 +1,44 @@
+{
+    "navbar":{
+        "nav-1":"INICIO",
+        "nav-2":"SOBRE NOSOTROS",
+        "nav-3":"QUE HACEMOS",
+        "sub-nav-1":"Generación de Conocimientos y Análisis Prospectivos",
+        "sub-nav-2":"Estrategia y Manejo de Proyectos",
+        "sub-nav-3":"Reporteo Sostenible:",
+        "sub-nav-4":"Comunicación:",
+        "nav-4":"EQUIPO",
+        "nav-5":"CONTACTO",
+        "switch1":"INGLES",
+        "switch2":"ESPAÑOL"
+    },
+
+    "AboutUs":{ 
+        "title-About-us":"Sobre Nosotros",
+        "description-about-us": "SUINSO (Sustainable Intelligent Solutions) es una firma de consultoría especializada en desarrollo sostenible y estrategia ambiental. Empoderamos a empresas y organizaciones para que naveguen el complejo panorama de desafíos y oportunidades de sostenibilidad. Nuestra experiencia radica en desarrollar estrategias sostenibles a medida, desarrollo de narrativas e informes exhaustivos. Con nuestro conocimiento y soluciones innovadoras, ayudamos a los clientes a alcanzar sus objetivos de sostenibilidad, cumpliendo con las normativas, fidelizando clientes y colaboradores."
+    },
+
+    "services":{
+        "title":"Servicios",
+        "service1":"Generación de Conocimientos y Análisis Prospectivos",
+        "service2":"Estrategia y Manejo de Proyectos",
+        "service3":"Reporteo Sostenible",
+        "service4":"Comunicación"
+    },
+
+    "Team": {
+
+        "title-team":"Nuestro Equipo",
+        "hover-charge-wagner":"Arquitecta",
+        "charge-wagner":"Arquitecta",
+        "wagner-description": "Alejandra Wagner es Arquitecta especializada en planificación urbana y regional. Tiene más de quince años de experiencia en sistemas de información geográfica, geolocalización, procesamiento de imágenes satelitales, análisis de bases de datos y el diseño de indicadores para medir alcances y objetivos. Alejandra lidera el equipo de Insights & Research.",
+        "hover-charge-kubler":"Diseñadora gráfica",
+        "charge-kubler":"Diseñadora gráfica",
+        "kubler-description": "Nanu es diseñadora gráfica proactiva con más de ocho años de experiencia creando soluciones a través de la comunicación digital. Ha colaborado con empresas, ONG, agencias de marketing y productoras audiovisuales en América Latina y Europa en proyectos relacionados con tecnología, sostenibilidad, e-learning, finanzas, género e integración digital.",
+        "charge-cleri":"Fundadora y CEO",
+        "hover-charge-cleri":"Fundadora y CEO",
+        "cleri-description":"Paola Cleri es una destacada experta en desarrollo internacional y sostenibilidad con una amplia experiencia de más de dos décadas. Ha diseñado, negociado y dirigido con éxito proyectos de desarrollo a gran escala a nivel nacional e internacional. Su experiencia abarca las finanzas sostenibles, con un enfoque específico en el cambio climático y la inclusión de género, lo que la convierte en una figura clave en la creación de iniciativas estratégicas que abordan algunos de los desafíos globales más apremiantes. En 2024, Paola fundó SUINSO (Sustainable Intelligent Solutions) para ayudar a empresas y ONG a integrar la sostenibilidad en sus operaciones, proporcionando estrategias personalizadas y promoviendo la transparencia a través de herramientas avanzadas de informes y geolocalización. Sus credenciales académicas incluyen una Maestría en Estudios de Desarrollo de la London School of Economics, complementada con un Certificado de Experto en Finanzas Sostenibles de la Frankfurt School of Finance &amp; Management. La trayectoria profesional de Paola incluye roles clave como Jefa de Relaciones Internacionales y Sostenibilidad en el Banco de Inversión y Comercio Exterior de Argentina (BICE), donde lideró la estrategia de sostenibilidad y gestionó asociaciones internacionales. Su dedicación al avance del desarrollo sostenible también se evidencia en sus roles en muchas organizaciones internacionales como el Banco Interamericano de Desarrollo (BID), el Programa de las Naciones Unidas para el Desarrollo (PNUD) y la Organización de los Estados Americanos (OEA), además de servir como negociadora principal para el gobierno argentino con instituciones financieras internacionales."
+        
+    }
+
+}

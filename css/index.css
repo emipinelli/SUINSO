@@ -1,0 +1,923 @@
+html,
+* {
+    font-family: "Noto Sans JP", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    scroll-behavior: smooth;
+}
+
+body {
+
+    background-color: transparent;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    width: 100%;
+
+}
+
+/* Barra de navegacion */
+
+body::-webkit-scrollbar {
+    width: 10px;
+}
+
+body::-webkit-scrollbar-thumb {
+    background: rgba(0, 0, 0, 0.849);
+    border-right: 1px ridge rgba(0, 0, 0, 0.596);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Menu de navegacion */
+
+.nav {
+
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+}
+
+/* Navbar en ingles */
+
+.img-nav,
+.nav-text1,
+.nav-text2,
+.nav-text3,
+.nav-text4,
+.nav-text5,
+.switch-l {
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+}
+
+.nav-text1,
+.nav-text2,
+.nav-text3,
+.nav-text4,
+.nav-text5 {
+
+    position: relative;
+    display: inline-block;
+    transform: translateX(0rem);
+    -webkit-transform: translateX(0rem);
+    -moz-transform: translateX(0rem);
+    -ms-transform: translateX(0rem);
+    -o-transform: translateX(0rem);
+    font-size: 0.9rem;
+
+}
+
+.dropdown {
+
+    z-index: 1;
+
+}
+
+.dropdown-menu {
+
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 15px;
+    z-index: 1000;
+    float: left;
+    min-width: 10rem;
+    padding: 0.5rem 0;
+    margin: 0.125rem 0 0;
+    font-size: 1rem;
+    color: #212529;
+    text-align: left;
+    list-style: none;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    border-radius: 0.25rem;
+
+}
+
+.navbar .dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0;
+}
+
+.dropdown-menu {
+    transition: all 0.5s ease-in-out;
+}
+
+.switch-l {
+    position: relative;
+    display: inline-block;
+    transform: translate(6rem, 0.2rem);
+    -webkit-transform: translate(6rem, 0.2rem);
+    -moz-transform: translate(6rem, 0.2rem);
+    -ms-transform: translate(6rem, 0.2rem);
+    -o-transform: translate(6rem, 0.2rem);
+    font-size: 0.8rem;
+    font-family: "Noto Sans JP", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+    cursor: pointer;
+    user-select: none;
+}
+
+/* Estilos para el switch de idioma */
+
+#english {
+    cursor: pointer;
+}
+
+#english.active-en {
+    background-color: green;
+    transition: background-color 0.35s ease-in;
+    -webkit-transition: background-color 0.35s ease-in;
+    -moz-transition: background-color 0.35s ease-in;
+    -ms-transition: background-color 0.35s ease-in;
+    -o-transition: background-color 0.35s ease-in;
+}
+
+#spanish {
+    cursor: pointer;
+}
+
+#spanish.active-es {
+    background-color: green;
+    transition: background-color 0.35s ease-in;
+    -webkit-transition: background-color 0.35s ease-in;
+    -moz-transition: background-color 0.35s ease-in;
+    -ms-transition: background-color 0.35s ease-in;
+    -o-transition: background-color 0.35s ease-in;
+}
+
+/* Pseudoelementos */
+
+.img-nav:focus {
+
+    outline: none;
+
+}
+
+.nav-text1::before,
+.nav-text2::before,
+.nav-text3::before,
+.nav-text4::before,
+.nav-text5::before {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 1px;
+    top: 0;
+    background-color: white;
+    visibility: hidden;
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+}
+
+.nav-text1:hover::before {
+    visibility: visible;
+    width: 55%;
+}
+
+.nav-text2:hover::before {
+    visibility: visible;
+    width: 67%;
+}
+
+.nav-text3:hover::before {
+    visibility: visible;
+    width: 87%;
+}
+
+.nav-text4:hover::before {
+    visibility: visible;
+    width: 68%;
+}
+
+.nav-text5:hover::before {
+    visibility: visible;
+    width: 65%;
+}
+
+.nav-item.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+/* Navbar en español */
+
+.img-nav-es,
+.nav-text1-es,
+.nav-text2-es,
+.nav-text3-es,
+.nav-text4-es,
+.nav-text5-es,
+.switch-l-es {
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+}
+
+.img-nav-es {
+
+    position: relative;
+    left: -26px;
+
+}
+
+.nav-text1-es,
+.nav-text2-es,
+.nav-text3-es,
+.nav-text4-es,
+.nav-text5-es {
+    position: relative;
+    display: inline-block;
+    transform: translateX(-1rem);
+    -webkit-transform: translateX(-1rem);
+    -moz-transform: translateX(-1rem);
+    -ms-transform: translateX(-1rem);
+    -o-transform: translateX(-1rem);
+    font-size: 0.9rem;
+}
+
+.switch-l-es {
+    position: relative;
+    display: inline-block;
+    transform: translate(6rem, 0.2rem);
+    -webkit-transform: translate(6rem, 0.2rem);
+    -moz-transform: translate(6rem, 0.2rem);
+    -ms-transform: translate(6rem, 0.2rem);
+    -o-transform: translate(6rem, 0.2rem);
+    font-size: 0.8rem;
+    font-family: "Noto Sans JP", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+    cursor: pointer;
+    user-select: none;
+    left: 30px;
+}
+
+
+/* Seccion 1 */
+
+.section1 {
+    height: 100vh;
+    top: 0;
+    left: 0;
+    width: 100%;
+    position: relative;
+    padding: 0;
+}
+
+.row,
+.col {
+    margin: 0;
+    padding: 0;
+}
+
+/* Hero */
+
+/* .text-hero {
+    z-index: 10;
+    left: 50%;
+    top: 50%;
+    font-size: 3.2rem;
+    color: white;
+    font-weight: 700;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+} */
+
+.img-hero {
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -45%);
+    position: absolute;
+    z-index: 10;
+    -webkit-transform: translate(-50%, -45%);
+    -moz-transform: translate(-50%, -45%);
+    -ms-transform: translate(-50%, -45%);
+    -o-transform: translate(-50%, -45%);
+}
+
+#container-title {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+}
+
+/* ANIMACION PARA EL CARRUSEL */
+
+.carousel-fade .carousel-item {
+    opacity: 0;
+    transition-duration: .6s;
+    transition-property: opacity;
+}
+
+.carousel-fade .carousel-item.active,
+.carousel-fade .carousel-item-next.carousel-item-start,
+.carousel-fade .carousel-item-prev.carousel-item-end {
+    opacity: 1;
+}
+
+.carousel-fade .active.carousel-item-start,
+.carousel-fade .active.carousel-item-end {
+    opacity: 0;
+}
+
+.carousel-item {
+    height: 100vh;
+    transition: transform 1s ease, opacity 1s ease;
+}
+
+.carousel-item img {
+    object-fit: cover;
+    height: 100vh;
+    width: 100%;
+    opacity: 0.8;
+}
+
+.img-c {
+    height: 100vh;
+    width: 100%;
+    animation: desvanecer 2s ease-in-out;
+    -webkit-animation: desvanecer 2s ease-in-out;
+}
+
+.img-c2,
+.img-c3 {
+    animation: desvanecer 2s ease-in-out;
+    -webkit-animation: desvanecer 2s ease-in-out;
+}
+
+/* Seccion 2 */
+
+.section2 {
+
+    width: 100%;
+    height: 96vh;
+    top: 0;
+    left: 0;
+    position: relative;
+    padding: 0;
+    margin: 0;
+    background-image: url(../img/fondo\ suinso.jpg);
+    background-position: center;
+    background-size: cover;
+
+
+}
+
+.col-about-us {
+
+    flex: 1 0 0%;
+    height: 96vh;
+
+}
+
+.img-s2 {
+    text-align: center;
+    transform: translate(0, 17%);
+    -webkit-transform: translate(0, 17%);
+    -moz-transform: translate(0, 17%);
+    -ms-transform: translate(0, 17%);
+    -o-transform: translate(0, 17%);
+}
+
+.title-s2 {
+    top: 50%;
+    left: 50%;
+    transform: translate(0, -510%);
+    -webkit-transform: translate(0, -510%);
+    -moz-transform: translate(0, -510%);
+    -ms-transform: translate(0, -510%);
+    -o-transform: translate(0, -510%);
+    font-weight: 200;
+    text-shadow: 0 0 25px black;
+    font-size: 3rem;
+}
+
+.text-s2 {
+    transform: translate(0, -122%);
+    -webkit-transform: translate(0, -122%);
+    -moz-transform: translate(0, -122%);
+    -ms-transform: translate(0, -122%);
+    -o-transform: translate(0, -122%);
+    font-weight: 150;
+    font-size: 1.5rem;
+    text-shadow: 0 0 5px black;
+}
+
+/* Section 3 */
+
+.section3 {
+
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 86.8vh;
+    padding: 0;
+
+}
+
+.col-services {
+
+    flex: 0 0 auto;
+    height: 86.8vh;
+    width: 30%;
+    padding: 0;
+
+}
+
+.title-menu {
+
+    font-size: 2rem;
+    font-weight: 300;
+
+}
+
+.section3 .menu .li-title-menu {
+
+    border-bottom: none;
+
+}
+
+.section3 .menu {
+
+    padding-top: 20px;
+    border: 1px solid #000000;
+    height: 86.8vh;
+    width: 100%;
+
+}
+
+.section3 .menu ul {
+
+    list-style-type: none;
+    padding: 0;
+    position: relative;
+    height: 82.5vh;
+    margin: 0;
+
+}
+
+.section3 .menu ul li {
+
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+    height: 71.35px;
+    font-size: 1.4rem;
+
+}
+
+.section3 .menu ul li a {
+
+    text-decoration: none;
+    color: darkgreen;
+    cursor: pointer;
+
+}
+
+.li-text-service1,
+.li-text-service2,
+.li-text-service3,
+.li-text-service4 {
+
+    position: relative;
+    top: 2.5%;
+
+}
+
+.li-text-service4 {
+
+    border-bottom: none !important;
+
+}
+
+.section3 .menu ul li a:hover {
+
+    text-shadow: 0 0 1px darkgreen;
+
+}
+
+.section3 .col-content {
+
+    flex: 0 0 auto;
+    width: 70%;
+    height: 86.8vh;
+    padding: 0;
+
+}
+
+.img-services {
+    position: relative;
+    transform: translate(0, 180%);
+    -webkit-transform: translate(0, 180%);
+    -moz-transform: translate(0, 180%);
+    -ms-transform: translate(0, 180%);
+    -o-transform: translate(0, 180%);
+}
+
+/* Servicio1.html */
+
+.img-service1 {
+    position: relative;
+    transform: translate(0, 100%);
+    -webkit-transform: translate(0, 100%);
+    -moz-transform: translate(0, 100%);
+    -ms-transform: translate(0, 100%);
+    -o-transform: translate(0, 100%);
+    /*z-index: 10;
+    */
+}
+
+.container {
+
+    width: 100%;
+    padding: 0;
+    overflow-x: hidden;
+    position: relative;
+    z-index: 10;
+    top: -150px !important;
+
+
+}
+
+.title-li {
+
+    font-size: 1.5rem;
+    font-weight: 300;
+    background-color: #18b64a5f;
+
+}
+
+.title-li-sub {
+
+    font-size: 1.5rem;
+    font-weight: 300;
+    /* background-color: #18b64a5f; */
+
+}
+
+.section3 .container ul li {
+    padding: 10px 0;
+    text-align: justify;
+}
+
+.section3 .container ul li h1 {
+    margin: 0 0 10px;
+    font-size: 1.5rem;
+}
+
+.scroll-content-sv1 {
+
+    max-height: 100%;
+    overflow: auto;
+    padding: 20px;
+    background-color: rgba(13, 13, 13, 0.6);
+    color: #fff;
+    height: 86.8vh;
+
+}
+
+/* Servicio2.html */
+
+.scroll-content-sv2 {
+
+    max-height: 100%;
+    overflow: auto;
+    padding: 20px;
+    background-color: rgba(22, 22, 20, 0.6);
+    color: #fff;
+    height: 86.8vh;
+
+}
+
+.title-li-sv2 {
+
+    font-size: 1.5rem;
+    font-weight: 300;
+
+}
+
+.p-sub-sv2 {
+
+    background-color: #1f6234;
+
+}
+
+/* Servicio3.html */
+
+.scroll-content-sv3 {
+
+    max-height: 100%;
+    overflow: auto;
+    padding: 20px;
+    /* background-color: rgba(27, 21, 21, 0.6); */
+    background-color: rgba(24, 23, 23, 0.6);
+    color: #fff;
+    height: 86.8vh;
+
+}
+
+.title-li-sv3 {
+
+    font-size: 1.5rem;
+    font-weight: 300;
+    background-color: #78cb51bf;
+
+}
+
+/* Servicio4.html */
+
+.scroll-content-sv4 {
+
+    max-height: 100%;
+    overflow: auto;
+    padding: 20px;
+    background-color: rgba(27, 21, 21, 0.6);
+    /* background-color: rgba(24, 23, 23, 0.6); */
+    color: #fff;
+    height: 86.8vh;
+
+}
+
+/* Section 4 */
+.section4 {
+    max-width: 100%;
+    height: 115vh;
+    position: relative;
+    padding: 0;
+    margin: 0;
+    background-image: url(../img/fondo\ suinso.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.row {
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.title-our-team {
+    font-weight: 200;
+    text-shadow: 0 0 20px black;
+    color: rgb(255, 255, 255);
+    transform: translateY(18%);
+    -webkit-transform: translateY(18%);
+    -moz-transform: translateY(18%);
+    -ms-transform: translateY(18%);
+    -o-transform: translateY(18%);
+}
+
+.card-accord {
+    width: 100%;
+    left: 0;
+    max-width: 300px; /* Ajustar esto según el ancho que desees */
+    margin: 0 auto; /* Centrar el contenedor */
+    position: relative;
+    padding: 0 15px; /* Para añadir un pequeño margen interior y evitar que se pegue a los bordes */
+    box-sizing: border-box; /* Para asegurar que el padding no exceda el contenedor */
+}
+
+.card {
+    width: 100%; /* Ajustar el ancho de la tarjeta para que coincida con el contenedor padre */
+    margin: 5px 0; /* Margen entre las tarjetas */
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+
+.card img {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 100%;
+    height: 150px !important;
+    background-position: center;
+    background-size: cover;
+    box-shadow: 0px 3px 7px rgb(0, 0, 0);
+    user-select: none;
+}
+
+.accordion {
+    border-bottom-left-radius: 10px !important;
+    border-bottom-right-radius: 10px !important;
+    box-shadow: 0px 1px 5px rgb(0, 0, 0);
+    width: 100%;
+    margin: 0;
+}
+
+.accordion-button {
+    background-color: white !important;
+    flex-direction: column;
+    width: 100% !important;
+    height: 50px;
+    border-bottom-left-radius: 10px !important;
+    border-bottom-right-radius: 10px !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.accordion-title {
+    color: #1f6234;
+    position: relative;
+    top: -25%;
+}
+
+.accordion-subtitle {
+    font-size: 0.9rem;
+    color: darkgreen;
+    position: relative;
+    top: -65%;
+}
+
+.accordion-item {
+    border-bottom-left-radius: 10px !important;
+    border-bottom-right-radius: 10px !important;
+    background-color: rgb(255, 255, 255);
+}
+
+.accordion-text {
+    text-shadow: 0 0 0px black;
+}
+
+.accordion-body{
+
+    max-height: 200px;
+    overflow-y: auto;
+
+}
+
+.card-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    opacity: 0;
+    transition: opacity 0.3s;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom-left-radius: none;
+    border-bottom-right-radius: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card:hover .card-overlay {
+    opacity: 1;
+}
+
+.card-body {
+    text-align: center;
+    padding: 10px;
+}
+
+.card-title {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin: 0.5em 0;
+}
+
+.card-subtitle {
+    font-size: 1em;
+    font-weight: normal;
+    margin: 0.5em 0;
+    color: #555;
+}
+
+.card-text {
+    font-size: 0.9em;
+    font-weight: 500;
+    color: #777;
+    text-shadow: 0 0 15px rgb(0, 0, 0) !important;
+}
+
+/* Card-acordion 2 */
+
+.card-accord2 {
+    width: 100%;
+    left: 0%;
+    max-width: 300px; /* Ajustar esto según el ancho que desees */
+    margin: 0 auto; /* Centrar el contenedor */
+    position: relative;
+    padding: 0 15px; /* Para añadir un pequeño margen interior y evitar que se pegue a los bordes */
+    box-sizing: border-box; /* Para asegurar que el padding no exceda el contenedor */
+}
+
+/* Card-accordion 3 */
+
+.card-accord3 {
+    width: 100%;
+    left: 0%;
+    max-width: 300px; /* Ajustar esto según el ancho que desees */
+    margin: 0 auto; /* Centrar el contenedor */
+    position: relative;
+    padding: 0 15px; /* Para añadir un pequeño margen interior y evitar que se pegue a los bordes */
+    box-sizing: border-box; /* Para asegurar que el padding no exceda el contenedor */
+}
+
+
+/* Card-accordion 4 */
+
+.card-accord4 {
+    width: 100%;
+    left: 2.5%;
+    max-width: 300px; /* Ajustar esto según el ancho que desees */
+    margin: 0 auto; /* Centrar el contenedor */
+    position: relative;
+    padding: 0 15px; /* Para añadir un pequeño margen interior y evitar que se pegue a los bordes */
+    box-sizing: border-box; /* Para asegurar que el padding no exceda el contenedor */
+}
+
+/* Card-accord 5 */
+
+.card-accord5 {
+    width: 100%;
+    left: 0;
+    top: 20px !important;
+    max-width: 300px; /* Ajustar esto según el ancho que desees */
+    margin: 0 auto; /* Centrar el contenedor */
+    position: relative;
+    padding: 0 15px; /* Para añadir un pequeño margen interior y evitar que se pegue a los bordes */
+    box-sizing: border-box; /* Para asegurar que el padding no exceda el contenedor */
+}
+
+/* Card-acordion 6 */
+
+.card-accord6 {
+    width: 100%;
+    left: 0%;
+    top: 20px !important;
+    max-width: 300px; /* Ajustar esto según el ancho que desees */
+    margin: 0 auto; /* Centrar el contenedor */
+    position: relative;
+    padding: 0 15px; /* Para añadir un pequeño margen interior y evitar que se pegue a los bordes */
+    box-sizing: border-box; /* Para asegurar que el padding no exceda el contenedor */
+}
+
+/* Card-accordion 7 */
+
+.card-accord7 {
+    width: 100%;
+    left: 0%;
+    top: 20px !important;
+    max-width: 300px; /* Ajustar esto según el ancho que desees */
+    margin: 0 auto; /* Centrar el contenedor */
+    position: relative;
+    padding: 0 15px; /* Para añadir un pequeño margen interior y evitar que se pegue a los bordes */
+    box-sizing: border-box; /* Para asegurar que el padding no exceda el contenedor */
+}
+
+
+/* Card-accordion 8 */
+
+.card-accord8 {
+    width: 100%;
+    left: 2.5%;
+    top: 20px !important;
+    max-width: 300px; /* Ajustar esto según el ancho que desees */
+    margin: 0 auto; /* Centrar el contenedor */
+    position: relative;
+    padding: 0 15px; /* Para añadir un pequeño margen interior y evitar que se pegue a los bordes */
+    box-sizing: border-box; /* Para asegurar que el padding no exceda el contenedor */
+}
+
+.card-accord5,.card-accord6,.card-accord7,.card-accord8{
+
+    top: 20%;
+
+}
+
+/* Animaciones */
+
+@keyframes desvanecer {
+
+    from {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 0.8;
+    }
+
+}

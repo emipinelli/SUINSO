@@ -1,0 +1,41 @@
+{
+    "navbar": {
+        "nav-1": "HOME",
+        "nav-2": "ABOUT US",
+        "nav-3": "SERVICES DESIGNED FOR YOU",
+        "sub-nav-1": "Research and Insights",
+        "sub-nav-2": "Strategy and Management",
+        "sub-nav-3": "Sustainable Performance and Reporting",
+        "sub-nav-4": "Communication",
+        "nav-4": "OUR TEAM",
+        "nav-5": "CONTACT",
+        "switch1": "ENGLISH",
+        "switch2": "SPANISH"
+    },
+    "AboutUs": {
+        "title-About-us": "About US",
+        "description-about-us": "SUINSO (Sustainable Intelligent Solutions) is a premier consultancy firm specializing in sustainable development and environmental strategy. We empower businesses and organizations to navigate the complex landscape of sustainability challenges and opportunities. Our expertise lies in developing tailored sustainable strategies, narrative development, and comprehensive reporting. By leveraging our deep knowledge and innovative solutions, we help clients achieve their sustainability goals, ensuring regulatory compliance and fostering sustainable growth."
+    },
+    "services": {
+        "title": "Services",
+        "service1": "Research and Insights",
+        "service2": "Strategy and Management",
+        "service3": "Sustainable Performance and Reporting",
+        "service4": "Communication"
+    },
+
+    "Team": {
+        
+        "title-team":"Our Team",
+        "hover-charge-wagner":"Architect",
+        "charge-wagner":"Architect",
+        "wagner-description": "Alejandra Wagner is an Architect specializing in urban and regional planning. She has over fifteen years of experience in geographic information systems, geolocation, satellite image processing, database analysis, and the design of indicators for measuring scope and objectives. Alejandra leads the Insights &amp; Research team.",
+        "hover-charge-kubler":"Graphic designer",
+        "charge-kubler":"Graphic designer",
+        "kubler-description": "Nanu is a proactive graphic designer with over eight years of experience creating solutions through digital communication. She has collaborated with companies, NGOs, marketing agencies, and audiovisual production companies in Latin America and Europe on projects related to technology, sustainability, e-learning, finance, gender, and digital integration.",
+        "charge-cleri":"Founder and CEO",
+        "hover-charge-cleri":"Founder and CEO",
+        "cleri-description":"Paola Cleri is a distinguished expert in international development and sustainability with extensive experience spanning over two decades. She has successfully designed, negotiated, and directed large-scale development projects at national and international levels. Her expertise encompasses sustainable finance, with a specific focus on climate change and gender inclusivity, making her a pivotal figure in shaping strategic initiatives that address some of the most pressing global challenges. In 2024, Paola founded SUINSO (Sustainable Intelligent Solutions) to help companies and NGOs integrate sustainability into their operations, providing tailored strategies and promoting transparency through advanced reporting and geolocation tools. Her academic credentials include an MSc in Development Studies from the London School of Economics, complemented by an Expert Certificate in Sustainable Finance from the Frankfurt School of Finance &amp; Management. Paola&#39;s professional journey includes key roles such as Head of International Relations &amp; Sustainability at the Development Bank of Argentina (BICE), where she led the sustainability strategy and managed international partnerships. Her dedication to advancing sustainable development is further evidenced by her roles in many international organizations such as the Inter-American Development Bank (IADB), the United Nations Development Program (UNDP), and the Organization of American States (OAS), as well as serving as a leading negotiator for the Argentinean government with international financing institutions."
+        
+    }
+}

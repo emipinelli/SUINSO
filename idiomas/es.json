@@ -1,0 +1,99 @@
+{
+    "navbar":{
+        "nav-1":"INICIO",
+        "nav-2":"SOBRE NOSOTROS",
+        "nav-3":"SERVICIOS DISEÑADOS PARA VOS",
+        "sub-nav-1":"Generación de Conocimientos y Análisis Prospectivos",
+        "sub-nav-2":"Estrategia y Manejo de Proyectos",
+        "sub-nav-3":"Reporteo Sostenible",
+        "sub-nav-4":"Comunicación",
+        "nav-4":"EQUIPO",
+        "nav-5":"CONTACTO",
+        "switch1":"INGLÉS",
+        "switch2":"ESPAÑOL"
+    },
+
+    "AboutUs":{ 
+        "title-About-us":"Sobre Nosotros",
+        "description-about-us": "SUINSO (Sustainable Intelligent Solutions) es una firma de consultoría especializada en desarrollo sostenible y estrategia ambiental. Empoderamos a empresas y organizaciones para que naveguen el complejo panorama de desafíos y oportunidades de sostenibilidad. Nuestra experiencia radica en desarrollar estrategias sostenibles a medida, desarrollo de narrativas e informes exhaustivos. Con nuestro conocimiento y soluciones innovadoras, ayudamos a los clientes a alcanzar sus objetivos de sostenibilidad, cumpliendo con las normativas, fidelizando clientes y colaboradores."
+    },
+
+    "services":{
+        "title-sv": "SERV",
+        "title2-sv": "ICIOS DISEÑADOS PAR",
+        "title3-sv": "A VOS",
+        "title-acc1": "Generación de Conocimientos y Análisis Prospectivos",
+        "title1-text-acc1":"Generación de Conocimiento:",
+        "text1-acc1":"Realización de informes visuales y concisos con conocimientos exclusivos y personalizados para la toma de decisiones. Estudios comparativos (Benchmark).",
+        "title2-text-acc1":"Análisis Prospectivo:",
+        "text2-acc1":"Estudios prospectivos para anticipar tendencias emergentes y promover el cambio.",
+        "title3-text-acc1":"Gestión Ambiental:",
+        "title4-text-acc1":"",
+        "text3-acc1":"Monitoreo de indicadores climáticos relevantes para su industria/empresa.",
+        "title5-text-acc1":"",
+        "text4-acc1":"Mapeo de riesgos de inundaciones, incendios forestales y contaminación del aire.",
+        "title6-text-acc1":"",
+        "text5-acc1":"Mapeo de indicadores ambientales clave para la toma de decisiones y la alerta temprana.",
+        "title7-text-acc1":"",
+        "text6-acc1":"Mapeo de la exposición a riesgos de desastres naturales.",
+        "title8-text-acc1":"",
+        "text7-acc1":"",
+        "title9-text-acc1":"",
+        "text8-acc1":"Análisis de patrones de exposición a riesgos ambientales y sociales.",
+        "title-acc2": "Estrategia y Manejo de Proyectos",
+        "title1-text-acc2":"Desarrollo de estrategia ESG (Ambiental, Social y de Gobernanza), alineadas con estándares globales, y apoyo en la integración de la sostenibilidad en su empresa.",
+        "title2-text-acc2":"Capacitación a Medida:",
+        "text1-acc2":"Desarrollo de capacitaciones personalizadas: capacitaciones in situ o en línea.",
+        "text2-acc2":"Programas de sensibilización para interesados internos y externos.",
+        "text3-acc2":"Mejora del perfil ambiental de su cadena de valor, incluyendo materias primas, agua, energía, residuos y emisiones.",
+        "text4-acc2":"Estrategias para la transición a modelos de economía circular.",
+        "title3-text-acc2":"Finanzas Sostenibles:",
+        "text5-acc2":"Finanzas Sostenibles: Desarrollo de Taxonomía Verde, análisis de carteras de inversión. Riesgos climáticos, ambientales y sociales asociados con la cartera.",
+        "title-acc3": "Reporteo Sostenible",
+        "title1-text-acc3":"Preparación de Informes de Sostenibilidad e Informes Integrados:",
+        "text1-acc3":"Implementación de estándares internacionales: Estándares GRI, ISO 26000, AA1000, Pacto Mundial de las Naciones Unidas, SDG Compass para contribuir a los Objetivos de Desarrollo Sostenible (ODS).",
+        "title2-text-acc3":"Medición de la Huella de Carbono:",
+        "text2-acc3":"Medición y análisis precisos de su huella de carbono para comprender y reducir el impacto ambiental.",
+        "title3-text-acc3":"Indicadores Económicos, Sociales y Ambientales:",
+        "text3-acc3":"Construcción y seguimiento de indicadores económicos, sociales y ambientales clave para monitorear el desempeño y el progreso.",
+        "title4-text-acc3":"Desarrollo de Metas e Identificación de Oportunidades:",
+        "text4-acc3":"Desarrollo de metas de sostenibilidad e identificación de oportunidades de mejora para mejorar los esfuerzos generales de sostenibilidad.",
+        "title5-text-acc3":"Metodologías de Medición de Impacto:",
+        "text5-acc3":"Desarrollo de metodologías robustas para medir el impacto de sus iniciativas de sostenibilidad.",
+        "title-acc4": "Comunicación",
+        "title1-text-acc4":"Desarrollo de Narrativa:",
+        "text1-acc4":"Creación de narrativas convincentes que resuenen con su audiencia y destaquen sus esfuerzos de sostenibilidad de manera efectiva.",
+        "text2-acc4":"Desarrollo de una historia coherente que comunique el camino de su organización hacia la sostenibilidad, enfatizando los logros clave y las metas futuras.",
+        "title2-text-acc4":"Mensajes con Impacto:",
+        "text3-acc4":"Personalización de mensajes adaptados a audiencias específicas, asegurando claridad, relevancia y compromiso.",
+        "text4-acc4":"Consolidación de la narrativa adecuada para maximizar el impacto y fomentar la comprensión y el apoyo entre los interesados y clientes.",
+        "title3-text-acc4":"Estrategia de Posicionamiento:",
+        "text5-acc4":"Identificación de eventos y oportunidades clave para promover sus productos e ideas dentro del ámbito de la sostenibilidad.",
+        "text6-acc4":"Preparación de presentaciones y envíos para premios de sostenibilidad, rankings y reconocimientos de la industria para mostrar sus iniciativas y logros de manera efectiva."
+    },
+
+    "team": {
+        
+        "title-s4":"Nuestro Equipo",
+        "subtitle1-s4":"Fundadora y CEO de SUINSO.",
+        "subtitle2-s4":"Arquitecta",
+        "subtitle3-s4":"Diseñadora gráfica",
+        "text-e1":"Paola Cleri es una destacada experta en desarrollo internacional y sostenibilidad con una amplia experiencia de más de dos décadas. Ha diseñado, negociado y dirigido con éxito proyectos de desarrollo a gran escala a nivel nacional e internacional. Su experiencia abarca las finanzas sostenibles, con un enfoque específico en el cambio climático y la inclusión de género, lo que la convierte en una figura clave en la creación de iniciativas estratégicas que abordan algunos de los desafíos globales más apremiantes. En 2024, Paola fundó SUINSO (Sustainable Intelligent Solutions) para ayudar a empresas y ONG a integrar la sostenibilidad en sus operaciones, proporcionando estrategias personalizadas y promoviendo la transparencia a través de herramientas avanzadas de informes y geolocalización. Sus credenciales académicas incluyen una Maestría en Estudios de Desarrollo de la London School of Economics, complementada con un Certificado de Experto en Finanzas Sostenibles de la Frankfurt School of Finance &amp; Management. La trayectoria profesional de Paola incluye roles clave como Jefa de Relaciones Internacionales y Sostenibilidad en el Banco de Inversión y Comercio Exterior de Argentina (BICE), donde lideró la estrategia de sostenibilidad y gestionó asociaciones internacionales. Su dedicación al avance del desarrollo sostenible también se evidencia en sus roles en muchas organizaciones internacionales como el Banco Interamericano de Desarrollo (BID), el Programa de las Naciones Unidas para el Desarrollo (PNUD) y la Organización de los Estados Americanos (OEA), además de servir como negociadora principal para el gobierno argentino con instituciones financieras internacionales.",
+        "text-e2":"Alejandra Wagner es Arquitecta especializada en planificación urbana y regional. Tiene más de quince años de experiencia en sistemas de información geográfica, geolocalización, procesamiento de imágenes satelitales, análisis de bases de datos y el diseño de indicadores para medir alcances y objetivos. Alejandra lidera el equipo de Insights &amp; Research. Ha brindado servicios de consultoría a diversas agencias gubernamentales y empresas privadas en el sector tecnológico en Argentina, México e Israel. Su experiencia abarca estrategias ambientales, sociales y de gobernanza (ESG), gestión ambiental y cálculo de huella de carbono.",
+        "text-e3":"Nanu es diseñadora gráfica proactiva con más de ocho años de experiencia creando soluciones a través de la comunicación digital. Ha colaborado con empresas, ONG, agencias de marketing y productoras audiovisuales en América Latina y Europa en proyectos relacionados con tecnología, sostenibilidad, e-learning, finanzas, género e integración digital. Su especialización se centra en el desarrollo integral de la identidad de marca con un enfoque estratégico orientado al usuario, abarcando desde el branding hasta su implementación efectiva en plataformas digitales. También tiene una sólida experiencia en diseño editorial y visualización de datos, así como en el diseño de campañas digitales en colaboración con equipos de marketing y comunicación multimedia para eventos institucionales."
+        
+    },
+
+    "Contact": {
+        
+        "title-s5":"Contacto",
+        "or-text": "o",
+        "input1":"Nombre",
+        "input3":"Telefono",
+        "input4":"Mensaje",
+        "button-s5":"Enviar",
+        "text-footer":"Todos los derechos reservados"
+        
+    }
+
+}
